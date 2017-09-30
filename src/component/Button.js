@@ -20,7 +20,6 @@ class Button extends React.Component {
         className={className}
       >
         <button
-          className = "component-button"
           onClick={this.handleClick}
         >
         {this.props.name}
